@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="img/faviconka-new.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="header__log">
+                <span>1777.vt Жиздра</span>
+                <img src="img/logo-photo.png" alt="" />
+            </div>
+            <nav class="header__nav menu">
+                <ul>
+                    <li><a href="index.html">Главная страница</a></li>
+                    <li><a href="aboutme.html">Обо мне</a></li>
+                    <li><a href="gallery.html">Галерея</a></li>
+                    <li><a href="">Карта</a></li>
+                    <li><a href="">Добавить статью</a></li>
+                    <li><a href="">Админка</a></li>
+                </ul>
+            </nav>
+            <nav class="header__users">
+                <ul>
+                    <li><a href="authorization.html">Войти</a></li>
+                    <span>|</span>
+                    <li><a href="registration.html">Зарегистрироваться</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="content">
+            <h1>Обо мне</h1>
+            <div class="content__aboutme aboutme">
+                <div class="aboutme__inf">
+                    <img class="aboutme__my-photos" src="img/i.jpg" alt="" />
+                    <div class="aboutme__text">
+                        <p>Всем привет! Меня зовут Сергей мне 35 лет</p>
+                        <p>Я являюсь веб-разработчиком</p>
+                        <p>Этот сайт сделан на языке программирования PHP, версия сайта vers-003, в дальнейшем
+                            функционал сайта будет дорабатываться</p>
+                        <p>На этом сайте есть регистрация, регистрированным пользователям дается возможность оставлять
+                            комментарии под фотографиями</p>
+                        <p>Все фотографии на главной странице уменьшены в размере - это сделанно для оптимизации сайта,
+                            чтобы посмотреть оригинал фотографии нужно перейти по ссылке нажав на фото.</p>
+                        <p>Идея сайта в том, чтобы выкладывать фото Калужской области</p>
+                        <p>Если есть вопросы или предложения, то мне можно написать по форме обратной связи</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content__form form-aboutme">
+                <h2>Форма обратной связи</h2>
+                <form class="form-aboutme__main" action="#">
+                    <label for="text">Введите ваше имя *:</label>
+                    <input type="text" name="name" placeholder="Pavel Durov" id="text" />
+                    <label for="email">Введите вашу почту *:</label>
+                    <input type="email" name="email" placeholder="name@gmail.com" id="email" />
+                    <label for="letter">Напишите сообщение *:</label>
+                    <textarea name="text" id="letter" placeholder="ваше сообщения"></textarea>
+                    <div class="form-aboutme__div-checkbox">
+                        <input type="checkbox" name="check" class="form-aboutme__check" />
+                        <span>Согласие на обработку песональных данных</span>
+                    </div>
+                    <input type="submit" value="Отправить" />
+                </form>
+            </div>
+        </div>
+        <footer class="footer">
+            <p>Copyright &copy; сайт 1777vt.Жиздра, 2021 |</p>
+            <a href="politic.html">Политика конфиденциальности</a>
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Моя первая HTML-страница</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="моя страница, html-страница, web-документ" />
+    <meta name="description" content="Моя первая HTML-страница" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/mobile.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!--<script src="https://use.fontawesome.com/219ee59df6.js"></script>-->
+</head>
+
+<body>
+    <header>
+        <div class="header__block">
+            <div class="header__block_content">
+                <div class="header__logo">
+                    <img src="images/logo.png" alt="" />
+                </div>
+                <div class="header__text">
+                    <p>
+                        Строительство - отрасль материального производства, в которой создаются основные фонды
+                        производственного и непроизводственного назначения: готовые к эксплуатации здания.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="conteiner">
+        <div class="conteiner__menu">
+            <input type="checkbox" id="menu_toggle" />
+            <label for="menu_toggle">&#9776;</label>
+            <nav class="conteiner__nav">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li class="conteiner__show">
+                        <a href="#">Продукция</a>
+                        <ul class="conteiner__see">
+                            <li><a href="#">Кирпич, блоки</a></li>
+                            <li><a href="#">Сыпучие материалы</a></li>
+                            <li><a href="#">Пиломатериалы</a></li>
+                            <li><a href="#">Изоляционные материалы</a></li>
+                            <li><a href="#">Опоры</a></li>
+                            <li><a href="#">Окна</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Фотогалерея</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+            <form action="#">
+                <input type="text" />
+                <button type="button">Поиск</button>
+            </form>
+            <img src="images/top_icon.png" alt="" />
+        </div>
+        <div class="slider__social-icon">
+            <p>Подписаться на наши новости:</p>
+        </div>
+        <div class="banner">
+            <div class="slider">
+                <div class="photos-slider__left"></div>
+                <div class="slider__img photos-slider">
+                    <p>Строительство домов под ключ</p>
+                </div>
+                <div class="photos-slider__right"></div>
+            </div>
+            <div class="slider__navigation">
+                <span class="slider__navigation_active"></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="conteiner__slyder">
+            <div class="conteiner__slyder_left"></div>
+            <div class="conteiner__slyder_photo">
+                <img src="/images/slider.jpg" alt="" />
+            </div>
+            <div class="conteiner__slyder_right"></div>
+        </div>
+        <div class="conteiner__slyder_switch">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="content">
+            <section class="conteiner__left">
+                <h2>Новости</h2>
+                <div>
+                    <div>
+                        <img src="images/news.png" alt="" />
+                        <p>Строительство и ремонт, выбор подрядчика</p>
+                    </div>
+                    <div>
+                        <img src="images/news.png" alt="" />
+                        <p>Строительство и ремонт, выбор подрядчика</p>
+                    </div>
+                    <div>
+                        <img src="images/news.png" alt="" />
+                        <p>Строительство и ремонт, выбор подрядчика</p>
+                    </div>
+                </div>
+                <aside>
+                    <p>Здесь Ваша реклама</p>
+                </aside>
+            </section>
+            <div class="right-block">
+                <div class="right-block__article">
+                    <div class="right-block__title">
+                        <div class="right-block__icon">
+                            <span>&#10084;</span>
+                            <span>&#10150;</span>
+                        </div>
+                        <img src="images/title.jpg" alt="" />
+                        <p>Как правильно выбрать материал для дома</p>
+                        <p>Потребителей интересуют способы строительства быстровозводимых зданий, которые по праву
+                            считаются в наше время наиболее...</p>
+                        <div class="right-block__bottom">
+                            <span>Просмотров: 1</span>
+                            <a href="#">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="right-block__title">
+                        <div class="right-block__icon">
+                            <span>&#10084;</span>
+                            <span>&#10150;</span>
+                        </div>
+                        <img src="images/title.jpg" alt="" />
+                        <p>Как правильно выбрать материал для дома</p>
+                        <p>Потребителей интересуют способы строительства быстровозводимых зданий, которые по праву
+                            считаются в наше время наиболее...</p>
+                        <div class="right-block__bottom">
+                            <span>Просмотров: 1</span>
+                            <a href="#">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="right-block__title">
+                        <div class="right-block__icon">
+                            <span>&#10084;</span>
+                            <span>&#10150;</span>
+                        </div>
+                        <img src="images/title.jpg" alt="" />
+                        <p>Как правильно выбрать материал для дома</p>
+                        <p>Потребителей интересуют способы строительства быстровозводимых зданий, которые по праву
+                            считаются в наше время наиболее...</p>
+                        <div class="right-block__bottom">
+                            <span>Просмотров: 1</span>
+                            <a href="#">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="right-block__title">
+                        <div class="right-block__icon">
+                            <span>&#10084;</span>
+                            <span>&#10150;</span>
+                        </div>
+                        <img src="images/title.jpg" alt="" />
+                        <p>Как правильно выбрать материал для дома</p>
+                        <p>Потребителей интересуют способы строительства быстровозводимых зданий, которые по праву
+                            считаются в наше время наиболее...</p>
+                        <div class="right-block__bottom">
+                            <span>Просмотров: 1</span>
+                            <a href="#">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="right-block__title">
+                        <div class="right-block__icon">
+                            <span>&#10084;</span>
+                            <span>&#10150;</span>
+                        </div>
+                        <img src="images/title.jpg" alt="" />
+                        <p>Как правильно выбрать материал для дома</p>
+                        <p>Потребителей интересуют способы строительства быстровозводимых зданий, которые по праву
+                            считаются в наше время наиболее...</p>
+                        <div class="right-block__bottom">
+                            <span>Просмотров: 1</span>
+                            <a href="#">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="right-block__title">
+                        <div class="right-block__icon">
+                            <span>&#10084;</span>
+                            <span>&#10150;</span>
+                        </div>
+                        <img src="images/title.jpg" alt="" />
+                        <p>Как правильно выбрать материал для дома</p>
+                        <p>Потребителей интересуют способы строительства быстровозводимых зданий, которые по праву
+                            считаются в наше время наиболее...</p>
+                        <div class="right-block__bottom">
+                            <span>Просмотров: 1</span>
+                            <a href="#">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="conteiner__pagination">
+                    <span>«</span>
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>»</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery__conteyner">
+        <h2>Галерея</h2>
+        <div class="gallery__wrapper">
+            <div class="swiper">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-wrapper">
+                    <a class="swiper-slide" href="images/gallery.jpg"><img src="images/gallery_small.jpg" alt="" /></a>
+                    <a class="swiper-slide" href="images/gallery.jpg"><img src="images/gallery_small.jpg" alt="" /></a>
+                    <a class="swiper-slide" href="images/gallery.jpg"><img src="images/gallery_small.jpg" alt="" /></a>
+                    <a class="swiper-slide" href="images/gallery.jpg"><img src="images/gallery_small.jpg" alt="" /></a>
+                </div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <nav>
+            <ul class="footer__link">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Продукция</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Фотогаллерея</a></li>
+                <li><a href="#">Новсоти</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+        <div class="footer__block-link link">
+            <div class="link__main">
+                <div class="link__left">
+                    <a href="#">Ссылка на тематическую статью</a>
+                    <a href="#">Ссылка на тематическую статью</a>
+                    <a href="#">Ссылка на тематическую статью</a>
+                    <a href="#">Ссылка на тематическую статью</a>
+                </div>
+                <div class="link__right">
+                    <a href="#">Ссылка на тематическую статью</a>
+                    <a href="#">Ссылка на тематическую статью</a>
+                    <a href="#">Ссылка на тематическую статью</a>
+                    <a href="#">Ссылка на тематическую статью</a>
+                </div>
+            </div>
+        </div>
+        <p>Строительство, 2019 &copy; Все права защищены</p>
+    </footer>
+    <script src="js/carousel.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,578 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* начало стили для всего сайта, прижимаем footer к низу страницы */
+body,
+html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.app {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+header {
+    position: fixed;
+    width: 100%;
+    background-color: #ffffff;
+    min-height: 80px;
+    display: flex;
+    padding: 10px 150px 5px 150px;
+    justify-content: space-between;
+    box-shadow: 0 0 7px rgb(0 0 0 / 50%);
+    box-sizing: border-box;
+    top: 0px;
+    z-index: 2;
+}
+footer {
+    font-size: 14px;
+    background-color: #2e3951;
+    min-height: 80px;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0 0 20px 0;
+    box-sizing: border-box;
+}
+
+.footer > a {
+    color: #d1fb4a;
+    text-decoration: none;
+}
+
+.content {
+    flex: 1 1 auto;
+}
+/* конец стилей для всего сайта, где прижимаем footer к низу страницы */
+
+/* начало стилей логотипа */
+.header__log {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 215px;
+}
+.header__log img {
+    width: 60px;
+}
+
+.header__log span {
+    font-size: 20px;
+    color: #3e7741;
+}
+/* конец стилей логотипа */
+
+/* начало стилей основного меню */
+.menu {
+    flex-basis: 570px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.menu ul {
+    flex-basis: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.menu ul li {
+    list-style-type: none;
+}
+.menu ul li a {
+    color: #333333;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    font-size: 15px;
+}
+
+.menu ul li a:hover {
+    color: #4a5877;
+}
+
+/* конец стилей основного меню */
+
+/* начало стилей меню входа и регистрации */
+
+.header__users ul {
+    display: flex;
+    align-items: flex-start;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.header__users ul li {
+    list-style-type: none;
+}
+
+.header__users ul li a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #333333;
+    transition-duration: 0.5s;
+}
+
+.header__users span {
+    color: #333333;
+}
+
+.header__users ul li a:hover {
+    color: #4a5877;
+}
+
+/* конец стилей меню входа и регистрации */
+
+/* Cтили авторизации и регистрации */
+
+.authorization {
+    width: 425px;
+    min-height: 375px;
+    box-shadow: 0px 1px 17px rgba(0, 0, 0, 0.4);
+    padding: 25px 25px 30px;
+    margin: 0 auto;
+}
+
+.registration {
+    padding: 25px 25px 0px;
+    margin-top: 50px;
+}
+
+.authorization__title {
+    font-family: sans-serif;
+}
+
+.authorization__title h1 {
+    font-size: 25px;
+}
+
+.authorization__title p {
+    color: #7c838d;
+    margin: 10px 0 0 0;
+    font-size: 18px;
+}
+
+.authorization__form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form label {
+    margin: 30px 0 0 0;
+}
+
+.form > label {
+    font-weight: 800;
+    color: #515a63;
+    font-size: 14px;
+    background: #e3e3e3;
+}
+
+.authorization__form label {
+    color: #535c65;
+    font-family: sans-serif;
+}
+
+.form__email,
+.form__password,
+.form__nikname {
+    padding: 10px 10px;
+    border: 0;
+    font-size: 24px;
+    outline: none;
+    border-bottom: 3px solid #dadfe6;
+    font-family: sans-serif;
+    background: #e0e4fb;
+}
+
+.form__checkbox {
+    margin: 25px 0 0 0;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form__remember {
+    display: flex;
+    align-items: center;
+}
+
+.form__remember label {
+    margin: 0 0 0 10px;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.form__remember input {
+    width: 20px;
+    height: 20px;
+}
+
+.form__checkbox a {
+    text-decoration: none;
+    color: #676d91;
+}
+
+.form input[type="submit"] {
+    font-size: 18px;
+    color: white;
+    padding: 10px 0;
+    background-color: #67789c !important;
+    font-family: sans-serif;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    margin: 30px 0 0 0;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #49956c !important;
+}
+
+/* конец стили авторизации и регистрации */
+
+/* Cтили основного контента сайта */
+.content {
+    margin: 120px auto 0 auto;
+    width: 63%;
+}
+.content > h1 {
+    text-align: center;
+    color: #00150a;
+    background-color: #cbe3df;
+    padding: 0;
+    font-size: 30px;
+}
+.content__main {
+    display: flex;
+    margin: 25px 0 0 0;
+    justify-content: space-between;
+}
+
+.content__block-articles {
+    flex-basis: 60%;
+}
+.content__view {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 30px 0;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.4);
+}
+
+.content__view h2 {
+    margin: 0 0 20px 0;
+}
+
+.content__view h2 a {
+    color: #29492b;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.content__view img {
+    margin: 0 0 10px 0;
+}
+
+.content__view address {
+    font-size: 14px;
+    margin: 0 0 10px 0;
+}
+
+.content__view p {
+    line-height: 20px;
+    margin: 0 0 10px 0;
+}
+
+.content__view div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 10px 0;
+}
+
+.content__view div a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #657c92;
+    transition-duration: 0.2s;
+}
+
+.content__view div a:hover {
+    color: #226397;
+}
+
+.content__view time {
+    align-self: flex-end;
+    font-size: 10px;
+    margin: 0 0 5px 0;
+}
+
+/* Cтили правой части сайта */
+.content__inf {
+    flex-basis: 300px;
+    margin: 20px 0 0 0;
+}
+
+.content__inf h3 {
+    font-size: 22px;
+    margin: 0 0 10px 0;
+}
+.categories__link {
+    margin: 0 0 20px 0;
+}
+.content__inf ul {
+    list-style-type: none;
+}
+.content__inf ul li {
+    line-height: 22px;
+    font-size: 16px;
+    margin: 0 0 10px 0;
+}
+.content__inf ul li a {
+    text-decoration: none;
+    color: #4d4d4d;
+    transition-duration: 0.2s;
+}
+
+.article-new ul li a:hover {
+    color: #221717;
+}
+.categories ul li a:hover {
+    color: #291b1b;
+}
+.article-new ul li {
+    display: flex;
+    flex-direction: column;
+}
+
+.article-new ul li time {
+    font-size: 12px;
+}
+
+/*Стили рекламы на основной странице*/
+
+.content__advertising-block1 {
+    border: 1px solid black;
+    width: 300px;
+    height: 600px;
+}
+
+.content__advertising-block2 {
+    border: 1px solid black;
+    width: 300px;
+    height: 600px;
+    margin: 30px 0 0 0;
+}
+
+/*Конец стилей рекламы на основной странице*/
+
+/*Стили стрелки вниз на основной странице*/
+
+.content__arrow {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 20px 0;
+}
+
+.content__arrow a img {
+    opacity: 0.9;
+}
+
+/*Стили верхней части страницы обо мне*/
+
+.content__aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* .aboutme h1{
+    width: 100%;
+    text-align: center;
+    color: #00150a;
+    background-color: #cbe3df;
+    padding: 0;
+    margin-bottom: 10px;
+
+} */
+
+.aboutme img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    filter: grayscale(70%);
+    opacity: 0.9;
+}
+
+.aboutme__inf {
+    max-width: 800px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutme__text {
+    flex-basis: 600px;
+    margin-top: 50px;
+}
+
+.aboutme__text p {
+    margin-bottom: 10px;
+    line-height: 22px;
+}
+/*Конец стилей верхней части страницы обо мне*/
+
+/*Начало стилей нижней части страницы обо мне*/
+
+.form-aboutme {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-aboutme h2 {
+    text-align: center;
+    margin: 30px 0 10px 0;
+}
+
+.form-aboutme__main {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-aboutme__main > label {
+    margin: 20px 0 7px 0;
+}
+
+.form-aboutme__main > input {
+    padding: 9px;
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    transition-duration: 0.3s;
+}
+
+.form-aboutme__main > input:focus {
+    outline: 2px solid rgb(55, 128, 141);
+}
+
+.form-aboutme__main textarea {
+    width: 100%;
+    min-height: 180px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    transition-duration: 0.4s;
+}
+
+.form-aboutme__main textarea:focus {
+    outline: 2px solid rgb(55, 128, 141);
+}
+
+.form-aboutme__div-checkbox {
+    margin: 15px 0 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.form-aboutme__div-checkbox input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+.form-aboutme__div-checkbox span {
+    margin: 0 0 0 10px;
+    font-size: 14px;
+}
+
+.form-aboutme__main input[type="submit"] {
+    text-transform: uppercase;
+    background-color: #67789c;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    transition-duration: 0.4s;
+    color: white;
+    cursor: pointer;
+    margin: 0 0 20px 0;
+}
+
+.form-aboutme__main input[type="submit"]:hover {
+    background-color: #49956c;
+}
+
+/*Конец стилей нижней части страницы обо мне*/
+
+/*Начало стилей  страницы галерея*/
+
+.gallery {
+    /* max-width: 800px; */
+    margin: 0 auto;
+}
+
+.gallery .gallery__categories {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gallery__categories > div {
+    flex-basis: 200px;
+    min-height: 100px;
+    /* border: 1px solid; */
+    background-image: linear-gradient(to top right, rgb(233, 217, 217), rgb(178, 233, 229), #f3f3e0);
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 20px 0 20px 0;
+    transition-duration: 0.3s;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.gallery__categories > div span {
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 1);
+}
+
+.gallery__categories > div:hover {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+    background-image: linear-gradient(to top right, rgb(236, 195, 195), rgb(144, 226, 219), #e2e2d2);
+    border-radius: 2px;
+}
+
+.gallery__main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery__image {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    margin: 5px;
+    transition-duration: 0.2s;
+}
+
+.gallery__image:hover {
+    transform: scale(1.1);
+}
+
+.gallery__image img {
+    width: 400px;
+}
+
+/*Конец стилей  страницы галерея*/

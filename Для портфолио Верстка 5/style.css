@@ -1,0 +1,102 @@
+body {
+    background-color: #EBEBEB;
+}
+
+
+/* стили шапки сайта */
+.header {
+    margin: 0 auto;
+    width: 890px;
+    background-color: #F8AA03;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+/* стили меню*/
+.header nav {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    min-height: 50px;
+    align-items: center;
+
+}
+
+.header nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    transition: all .6s;
+    font-family: sans-serif;
+}
+
+header nav a:first-child {
+    text-decoration: underline;
+}
+
+.header nav a:hover {
+    text-decoration: underline;
+}
+
+/* заканчиваются стили меню*/
+
+/* обертка для основного контента сайта*/
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    width: 890px;
+
+}
+
+/* стили основного контента сайта*/
+.main {
+    text-align: justify;
+    width: 530px;
+    background-color: #ffffff;
+    padding: 20px 10px 20px 20px;
+    box-sizing: border-box;
+
+}
+
+.main__img {
+    overflow: hidden;
+}
+
+.main__table-body tr th {
+    border: 1px solid #000000;
+    text-align: center;
+    background-color: #EBEBEB;
+
+}
+
+.main__table {
+    margin-top: 10px;
+    width: 500px;
+}
+
+.main__table-body tr td {
+    text-align: center;
+}
+
+/* стили правого блока сайта*/
+.wrapper__right {
+    background-color: #ffffff;
+    text-align: justify;
+    padding: 20px 20px 20px 10px;
+    box-sizing: border-box;
+}
+
+/* стили подвала сайта*/
+footer {
+    width: 890px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #F8AA03;
+    min-height: 75px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
