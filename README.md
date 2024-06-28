@@ -1,10 +1,13 @@
-### Cверстанные сайты: ####
+#### Layout sites: ####
 ___
 
-#### Использовал: ####
+#### Used: ####
 
 1. HTML CSS JS
 
-> Часть сверстанных сайтов адаптированы под мобильные телефоны
+> Some of the sites are adapted for mobile phones
 
-> Автор кода: -s | Почта: j.wind@list.ru
+___
+
+Code Author: -s | 
+Mail: j.wind@list.ru
