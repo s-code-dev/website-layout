@@ -9,5 +9,5 @@ ___
 
 ___
 
-Code Author: -s | 
-Mail: j.wind@list.ru
+>> Автор кода: -s |
+>> Почта: ji.rain@mail.ru
